@@ -1,0 +1,21 @@
+.interview-scheduler-container {
+    max-width: 800px;
+    margin: 0 auto;
+    color:rgb(0, 0, 0);
+  }
+  
+  form {
+    background-color:rgb(255, 255, 255);
+    display: grid;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #5c748d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  

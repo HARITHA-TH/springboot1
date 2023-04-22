@@ -1,0 +1,55 @@
+<!-- <div class="interview-scheduler-container">
+    <h2>Schedule Interview</h2>
+    <form (submit)="scheduleInterview()">
+      <label for="id">ID:</label>
+      <input [(ngModel)]="newInterview.id" type="number" id="id" required>
+      
+      <button type="submit">Schedule</button>
+    </form>
+    <h2>Scheduled Interviews</h2>
+    <ul>
+      <li *ngFor="let interview of interviews">
+        ID: {{interview.id}}, Name: {{interview.name}}, Email: {{interview.email}}, Phone: {{interview.phone}}, Skill: {{interview.skill}}, Experience: {{interview.experience}}, Date: {{interview.date}}, Time: {{interview.time}}, Link: {{interview.link}}, HR: {{interview.hr}}
+        <button (click)="deleteInterview(interview.id)">Delete</button>
+      </li>
+    </ul>
+  </div> -->
+
+
+
+
+  <div class="interview-scheduler-container">
+    <h2>Schedule Interview</h2>
+    <form (submit)="scheduleInterview()">
+      <label for="id">ID:</label>
+      <input [(ngModel)]="newInterview.id" type="number" id="id" required>
+      <label for="name">Name:</label>
+      <input [(ngModel)]="newInterview.name" type="text" id="name" required>
+      <label for="email">Email:</label>
+      <input [(ngModel)]="newInterview.email" type="email" id="email" required>
+      <label for="phone">Phone:</label>
+      <input [(ngModel)]="newInterview.phone" type="tel" id="phone" required>
+      <label for="skill">Skill:</label>
+      <input [(ngModel)]="newInterview.skill" type="text" id="skill" required>
+      <label for="experience">Experience:</label>
+      <input [(ngModel)]="newInterview.experience" type="text" id="experience" required>
+      <label for="date">Date:</label>
+      <input [(ngModel)]="newInterview.date" type="date" id="date" required>
+      <label for="time">Time:</label>
+      <input [(ngModel)]="newInterview.time" type="time" id="time" required>
+      <label for="link">Link:</label>
+      <input [(ngModel)]="newInterview.link" type="url" id="link" required>
+      <label for="hr">HR:</label>
+      <input [(ngModel)]="newInterview.hr" type="text" id="hr" required>
+      <button type="submit">Schedule</button>
+    </form>
+    <h2>Scheduled Interviews</h2>
+    <ul>
+      <li *ngFor="let interview of interviews">
+        ID: {{interview.id}}, Name: {{interview.name}}, Email: {{interview.email}}, Phone: {{interview.phone}}, Skill: {{interview.skill}}, Experience: {{interview.experience}}, Date: {{interview.date}}, Time: {{interview.time}}, Link: {{interview.link}}, HR: {{interview.hr}}
+        <button (click)="deleteInterview(interview.id)">Delete</button>
+      </li>
+    </ul>
+  </div>
+  
+  

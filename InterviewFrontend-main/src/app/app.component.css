@@ -1,0 +1,7 @@
+/* Styles for app.component */
+h1 {
+    color: #3d628a; /* Set heading color to blue */
+    margin-top: 50px; /* Add top margin to the heading */
+    text-align: center; /* Center align the heading */
+  }
+  
